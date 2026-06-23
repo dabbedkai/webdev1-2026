@@ -1,244 +1,226 @@
 body {
   font-family: sans-serif;
-  padding: 40px;
+  
   background: #f5f5f5;
 }
 
-/* 
-1st
+/* ========== SET 1 ========== */
 
-.box {
-    background-color: #ffffff;
-    border-radius: 15px;
-    box-shadow:  2px 2px 2px 3px #000000;
-    padding: 75px;
-    max-width: 150px;
-} */
+/* 1st - Evenly Spaced Row */
+/* .box {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 3px #000000;
+  padding: 75px;
+  max-width: 150px;
+}
 
-/* .container {
-    display: flex;
+.container {
+  display: flex;
   justify-content: space-evenly;
 } */
 
-/* 
-2nd
+/* 2nd - Centered Column */
+/* .box {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 3px #000000;
+  padding: 75px;
+  width: 400px;
+  text-align: center;
+  margin-bottom: 15px;
+}
 
-.box {
-    background-color: #ffffff;
-    border-radius: 15px;
-    box-shadow:  2px 2px 2px 3px #000000;
-    padding: 75px;
-    width: 400px;
-    text-align: center;
-    margin-bottom: 15px;
-} */
-
-/* .container {
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
 } */
 
-/* 
-3rd
-
-.box-short {
-    background-color: #ffffff;
-    border-radius: 15px;
-    box-shadow:  2px 2px 2px 3px #000000;
-    padding: 75px;
-    height  : 100px;
+/* 3rd - Bottom-Aligned Row */
+/* .box-short {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 3px #000000;
+  padding: 75px;
+  height: 100px;
 }
+
 .box-medium {
-    background-color: #ffffff;
-    border-radius: 15px;
-    box-shadow:  2px 2px 2px 3px #000000;
-    padding: 75px;
-    height: 250px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 3px #000000;
+  padding: 75px;
+  height: 250px;
 }
 
 .box-tall {
-    background-color: #ffffff;
-    border-radius: 15px;
-    box-shadow:  2px 2px 2px 3px #000000;
-    padding: 75px;
-    height: 400px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 3px #000000;
+  padding: 75px;
+  height: 400px;
 }
 
 .container {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
+  height: 200px;
 } */
 
-/* 
-4th
+/* 4th - Wrapping Card Grid */
+/* .card {
+  width: 100px;
+  height: 100px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 3px #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .container {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
   width: 366px;
-}
+} */
 
-.card {
-  width: 100px;
-  height: 100px;
-  box-shadow: 2px 2px 2px 3px #000000;
+/* 5th - Wrapped Rows, Spaced Apart */
+/* .card {
+  width: 155px;
+  height: 80px;
+  background: #ffffff;
   border-radius: 15px;
+  box-shadow: 2px 2px 2px 3px #000000;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #fff;
-} */
+}
 
-/* 
-
-5th
 .container {
   display: flex;
   flex-wrap: wrap;
   width: 320px;
   height: 220px;
   align-content: space-between;
-}
+} */
 
-.card {
+/* 6th - Navbar Pattern */
+/* .logo {
+  width: 100px;
+  height: 36px;
+  background: #ffffff;
+  border-radius: 8px;
   box-shadow: 2px 2px 2px 3px #000000;
-  border-radius: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #fff;
-  width: 155px;
-  height: 80px;
-} */
+  font-size: 12px;
+}
 
-/* 
-6th
+.links {
+  width: 160px;
+  height: 28px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px 3px #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
 
 .cta {
-       width: 160px;
-      height: 28px;
-      border: 1.5px solid #ccc;
-      border-radius: 8px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 12px;
-      background: #fff;
-      cursor: pointer;
-    }
-
-    .logo {
-       width: 160px;
-      height: 28px;
-      border: 1.5px solid #ccc;
-      border-radius: 8px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 12px;
-      background: #fff;
-    }
-
-    .links {
-       width: 160px;
-      height: 28px;
-      border: 1.5px solid #ccc;
-      border-radius: 8px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 12px;
-      background: #fff;
-    }
-
-    .container {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    } */
-
-/* 
-7th
-
-.box {
-    width: 100px;
-      height: 80px;
-      border: 1.5px solid #ccc;
-      border-radius: 12px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 14px;
-      color: #aaa;
-      background: #fff;
-      margin-left: 8px;
+  width: 80px;
+  height: 32px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px 3px #000000;
+  font-size: 12px;
+  cursor: pointer;
 }
 
 .container {
-    display: flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+} */
+
+/* 7th - Reversed Order Row */
+/* .box {
+  width: 100px;
+  height: 80px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 3px #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  margin-left: 8px;
+}
+
+.container {
+  display: flex;
   flex-direction: row-reverse;
   justify-content: flex-start;
 } */
 
-/* 
-8th
-
-.box-short {
-    background-color: #ffffff;
-    border-radius: 15px;
-    box-shadow:  2px 2px 2px 3px #000000;
-    padding: 75px;
-    width: 100px;
-    text-align: center;
-    margin-bottom: 15px;
+/* 8th - Centered Column, Spaced Items */
+/* .box-short {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 3px #000000;
+  padding: 75px;
+  width: 100px;
+  text-align: center;
+  margin-bottom: 15px;
 }
 
 .box-medium {
-    background-color: #ffffff;
-    border-radius: 15px;
-    box-shadow:  2px 2px 2px 3px #000000;
-    padding: 75px;
-    width: 250px;
-    text-align: center;
-    margin-bottom: 15px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 3px #000000;
+  padding: 75px;
+  width: 250px;
+  text-align: center;
+  margin-bottom: 15px;
 }
 
 .box-tall {
-    background-color: #ffffff;
-    border-radius: 15px;
-    box-shadow:  2px 2px 2px 3px #000000;
-    padding: 75px;
-    width: 400px;
-    text-align: center;
-    margin-bottom: 15px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 3px #000000;
+  padding: 75px;
+  width: 400px;
+  text-align: center;
+  margin-bottom: 15px;
 }
 
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; 
+  justify-content: space-between;
+  height: 400px;
 } */
 
-/* 
-9th
-
-.box {
+/* 9th - Evenly Gapped Row, Left-Packed */
+/* .box {
   width: 100px;
   height: 80px;
-  border: 1.5px solid #ccc;
-  border-radius: 12px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 3px #000000;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 14px;
-  color: #aaa;
-  background: #fff;
-  margin-left: 8px;
 }
 
 .container {
@@ -247,38 +229,34 @@ body {
   justify-content: flex-start;
 } */
 
-/* 
-10th
+/* 10th - Right-Aligned, Top-Packed Wrap */
+/* .card {
+  width: 90px;
+  height: 60px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 3px #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  margin: 6px;
+}
 
 .container {
   display: flex;
-flex-wrap: wrap;
-justify-content: flex-end;
-align-content: flex-start;
-width: 360px;
-height: 200px;
-}
-
-.card {
-   width: 90px;
-      height: 60px;
-      border: 1.5px solid #ccc;
-      border-radius: 12px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 14px;
-      color: #aaa;
-      background: #fff;
-      margin: 6px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-content: flex-start;
+  width: 360px;
+  height: 200px;
 } */
 
-/* SET 2 */
 
-/* 
-1ST
+/* ========== SET 2 ========== */
 
-.box {
+/* 1st - Centered Row with Gap */
+/* .box {
   background-color: #ffffff;
   border-radius: 15px;
   box-shadow: 2px 2px 2px 3px #000000;
@@ -292,10 +270,8 @@ height: 200px;
   gap: 20px;
 } */
 
-/* 
-2nd
-
-.box {
+/* 2nd - Column with Gap */
+/* .box {
   background-color: #ffffff;
   border-radius: 15px;
   box-shadow: 2px 2px 2px 3px #000000;
@@ -310,37 +286,28 @@ height: 200px;
   gap: 20px;
 } */
 
-
-
-
-
-/*
-3rd
-
-.box-short {
+/* 3rd - Baseline Aligned Row */
+/* .box-short {
   background-color: #ffffff;
   border-radius: 15px;
   box-shadow: 2px 2px 2px 3px #000000;
-  padding: 75px;
   height: 100px;
-  border: 1.5px solid #ccc;
+  width: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100px;
   margin-right: 12px;
 }
+
 .box-medium {
   background-color: #ffffff;
   border-radius: 15px;
   box-shadow: 2px 2px 2px 3px #000000;
-  padding: 75px;
-  height: 250px;
-  border: 1.5px solid #ccc;
+  height: 150px;
+  width: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100px;
   margin-right: 12px;
 }
 
@@ -348,40 +315,36 @@ height: 200px;
   background-color: #ffffff;
   border-radius: 15px;
   box-shadow: 2px 2px 2px 3px #000000;
-  padding: 75px;
-  height: 400px;
-  border: 1.5px solid #ccc;
+  height: 200px;
+  width: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100px;
   margin-right: 12px;
 }
 
 .container {
   display: flex;
   align-items: baseline;
-  height: 200px;
+  height: 250px;
 } */
 
-
+/* 4th - 2x2 Wrap, Left-Packed */
+/* .card {
+  width: 110px;
+  height: 80px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 3px #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  margin: 8px;
+}
 
 .container {
-    display: flex;
-flex-wrap: wrap;
-width: 366px;
-}
-
-.card {
-width: 110px;
-      height: 80px;
-      border: 1.5px solid #ccc;
-      border-radius: 12px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 14px;
-      color: #aaa;
-      background: #fff;
-      margin: 8px;
-}
+  display: flex;
+  flex-wrap: wrap;
+  width: 366px;
+} */
