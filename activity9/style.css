@@ -35,19 +35,18 @@ header {
   color: #626262;
 }
 
-/*  
-
-  */
-
 .hero {
+  background-color: #f5ede4;
+  border-bottom: 1px solid gray;
+}
+
+.hero_inner {
   display: flex;
   gap: 60px;
   align-items: flex-start;
   padding: 100px 60px;
-  max-width: 90%;
+  max-width: 1140px;
   margin: 0 auto;
-  border-bottom: 1px solid gray;
-  background-color: #f5ede4;
 }
 
 .hero_text {
@@ -216,7 +215,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 30px 60px;
-  background-color: #fdf6ef
+  background-color: #fdf6ef;
 }
 
 .footer_links {
@@ -228,3 +227,15 @@ footer {
 .footer_links a {
   color: #626262;
 }
+
+/* Checkpoint 1: 
+   I had to use `display: flex` twice because flexbox only works on the direct children of a container. Putting it on the <header> pushed the logo to the left and the whole nav block to the right. But that didn't affect the links inside the nav, so they were still stacked on top of each other. I had to add flex to the .navbar_links <ul> as well so the actual links would sit side-by-side, which also let me use the `gap` property to space them out.
+
+   Checkpoint 2: 
+   Even though the cards were already stacking vertically (since divs naturally do that), I still turned the container into a flex column mainly so I could use the `gap` property. It's just way easier to write `gap: 16px` on the parent to space everything out evenly. If I didn't use flex, I'd have to add `margin-bottom` to the cards and then figure out how to remove the margin from the very last card so the spacing wouldn't look weird.
+
+   Checkpoint 3: 
+   Trying to build that specific layout with Flexbox would be a huge headache. Since flexbox is really just meant for single rows or columns, I'd have to use `flex-wrap` and manually calculate exact percentage widths for the cards (like telling the wide ones to be 66% and the small ones 33%) while also doing math to account for the margins between them. With Grid, it's super simple—I just made 3 equal columns and told the wide cards to `span 2`. 
+
+   Checkpoint 4: 
+   The contact section didn't need flexbox because everything inside it (the labels, text, and button) naturally stacks vertically on its own. Since the default HTML flow was basically already doing what I needed, all I had to do was add `text-align: center` to the section to get everything lined up in the middle. Using flexbox there would have just been overcomplicating it. */
